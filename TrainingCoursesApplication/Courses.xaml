@@ -1,0 +1,55 @@
+﻿<Page x:Class="TrainingCoursesApplication.Courses"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:TrainingCoursesApplication"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="Courses" Background="#E1E7E7">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Label Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center" Background="#66DDAA" BorderBrush="Black" BorderThickness="1" Content="Courses"
+               FontFamily="Arial" FontSize="18" Foreground="Black" Padding="20 5"/>
+        <Label Grid.Column="0" Grid.Row="0" Padding="20 5" HorizontalAlignment="Center" VerticalAlignment="Center" Background="#B9DDCD" BorderBrush="Black" BorderThickness="1">
+            <Hyperlink NavigateUri="Students.xaml" FontFamily="Arial" FontSize="18" Foreground="Black" TextDecorations="none">Students</Hyperlink>
+        </Label>
+
+        <Label Grid.Column="2" Name="TotalNumCoursesLabel" HorizontalAlignment="Left" VerticalAlignment="Center" Margin="0 5 0 0" FontFamily="Arial" FontSize="16" Foreground="Black"
+               Content="Total number of courses"/>
+        <Label Grid.Column="2" Name="AmountCoursesLabel" HorizontalAlignment="Right" VerticalAlignment="Center" Margin="0 5 30 0" FontFamily="Arial" FontSize="16" Foreground="Black"/>
+
+        <DataGrid Name="CoursesDataGrid" Grid.Row="1" Grid.ColumnSpan="2" IsReadOnly="True" FontFamily="Arial" FontSize="14" ColumnWidth="150" Margin="10"/>
+
+        <StackPanel Grid.Row="1" Grid.Column="2">
+            <Button Name="MostExpensiveCoursesButton" Content="Most expensive courses" HorizontalAlignment="Center" VerticalAlignment="Center" Background="#66DDAA" BorderBrush="Black"
+                    BorderThickness="1" FontFamily="Arial" FontSize="16" Foreground="Black" Width="210" Height="33" Margin="5 20 5 5" Click="MostExpensiveCoursesButton_Click"/>
+            <Button Name="CheapestCoursesButton" Content="Cheapest courses" HorizontalAlignment="Center" VerticalAlignment="Center" Background="#66DDAA" BorderBrush="Black"
+                    BorderThickness="1" FontFamily="Arial" FontSize="16" Foreground="Black" Width="210" Height="33" Margin="5" Click="CheapestCoursesButton_Click"/>
+            <Button Name="MostProfitableCoursesButton" Content="Most profitable courses" HorizontalAlignment="Center" VerticalAlignment="Center" Background="#66DDAA" BorderBrush="Black"
+                    BorderThickness="1" FontFamily="Arial" FontSize="16" Foreground="Black" Width="210" Height="33" Margin="5 5 5 15" Click="MostProfitableCoursesButton_Click"/>
+            <Button Name="ViewAllCoursesButton" Content="View all courses" HorizontalAlignment="Center" VerticalAlignment="Center" Background="#66DDAA" BorderBrush="Black" BorderThickness="1"
+                    FontFamily="Arial" FontSize="16" Foreground="Black" Width="210" Height="33" Margin="5 15 5 5" Click="ViewAllCoursesButton_Click"/>
+            <Button Name="EditCourseButton" Content="Edit course" HorizontalAlignment="Center" VerticalAlignment="Center" Background="#66DDAA" BorderBrush="Black"
+                    BorderThickness="1" FontFamily="Arial" FontSize="16" Foreground="Black" Width="210" Height="33" Margin="5" Click="EditCourseButton_Click"/>
+            <Button Name="AddCourseButton" Content="Add course" HorizontalAlignment="Center" VerticalAlignment="Center" Background="#66DDAA" BorderBrush="Black"
+                    BorderThickness="1" FontFamily="Arial" FontSize="16" Foreground="Black" Width="210" Height="33" Margin="5" Click="AddCourseButton_Click"/>
+            <Button Name="DeleteButton" Content="Delete course" HorizontalAlignment="Center" VerticalAlignment="Center" Background="#FFB5B2" BorderBrush="Black"
+                    BorderThickness="1" FontFamily="Arial" FontSize="16" Foreground="Black" Width="210" Height="33" Margin="5" Click="DeleteButton_Click"/>
+            <Label Name="EditCourseLabel" Content="Select course from the list" HorizontalAlignment="Center" VerticalAlignment="Center" 
+                    FontFamily="Arial" FontSize="14" Foreground="Red" Visibility="Hidden"/>
+        </StackPanel>
+
+    </Grid>
+</Page>

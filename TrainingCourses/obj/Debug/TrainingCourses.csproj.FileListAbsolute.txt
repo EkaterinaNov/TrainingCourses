@@ -1,0 +1,12 @@
+E:\ITStep\TrainingCourses\TrainingCourses\bin\Debug\TrainingCourses.exe.config
+E:\ITStep\TrainingCourses\TrainingCourses\bin\Debug\TrainingCourses.exe
+E:\ITStep\TrainingCourses\TrainingCourses\bin\Debug\TrainingCourses.pdb
+E:\ITStep\TrainingCourses\TrainingCourses\bin\Debug\ClassLibraryBusinessLayer.dll
+E:\ITStep\TrainingCourses\TrainingCourses\bin\Debug\ClassLibraryTrainingCourses.dll
+E:\ITStep\TrainingCourses\TrainingCourses\bin\Debug\ClassLibraryBusinessLayer.pdb
+E:\ITStep\TrainingCourses\TrainingCourses\bin\Debug\ClassLibraryTrainingCourses.pdb
+E:\ITStep\TrainingCourses\TrainingCourses\obj\Debug\TrainingCourses.csprojAssemblyReference.cache
+E:\ITStep\TrainingCourses\TrainingCourses\obj\Debug\TrainingCourses.csproj.CoreCompileInputs.cache
+E:\ITStep\TrainingCourses\TrainingCourses\obj\Debug\TrainingCourses.csproj.CopyComplete
+E:\ITStep\TrainingCourses\TrainingCourses\obj\Debug\TrainingCourses.exe
+E:\ITStep\TrainingCourses\TrainingCourses\obj\Debug\TrainingCourses.pdb

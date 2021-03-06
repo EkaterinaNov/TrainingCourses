@@ -1,0 +1,9 @@
+E:\ITStep\TrainingCourses\ClassLibraryBusinessLayer\bin\Debug\ClassLibraryBusinessLayer.dll
+E:\ITStep\TrainingCourses\ClassLibraryBusinessLayer\bin\Debug\ClassLibraryBusinessLayer.pdb
+E:\ITStep\TrainingCourses\ClassLibraryBusinessLayer\bin\Debug\ClassLibraryTrainingCourses.dll
+E:\ITStep\TrainingCourses\ClassLibraryBusinessLayer\bin\Debug\ClassLibraryTrainingCourses.pdb
+E:\ITStep\TrainingCourses\ClassLibraryBusinessLayer\obj\Debug\ClassLibraryBusinessLayer.csprojAssemblyReference.cache
+E:\ITStep\TrainingCourses\ClassLibraryBusinessLayer\obj\Debug\ClassLibraryBusinessLayer.csproj.CoreCompileInputs.cache
+E:\ITStep\TrainingCourses\ClassLibraryBusinessLayer\obj\Debug\ClassLibraryBusinessLayer.csproj.CopyComplete
+E:\ITStep\TrainingCourses\ClassLibraryBusinessLayer\obj\Debug\ClassLibraryBusinessLayer.dll
+E:\ITStep\TrainingCourses\ClassLibraryBusinessLayer\obj\Debug\ClassLibraryBusinessLayer.pdb

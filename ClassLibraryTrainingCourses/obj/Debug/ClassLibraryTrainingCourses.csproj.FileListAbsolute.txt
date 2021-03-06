@@ -1,0 +1,5 @@
+E:\ITStep\TrainingCourses\ClassLibraryTrainingCourses\bin\Debug\ClassLibraryTrainingCourses.dll
+E:\ITStep\TrainingCourses\ClassLibraryTrainingCourses\bin\Debug\ClassLibraryTrainingCourses.pdb
+E:\ITStep\TrainingCourses\ClassLibraryTrainingCourses\obj\Debug\ClassLibraryTrainingCourses.csproj.CoreCompileInputs.cache
+E:\ITStep\TrainingCourses\ClassLibraryTrainingCourses\obj\Debug\ClassLibraryTrainingCourses.dll
+E:\ITStep\TrainingCourses\ClassLibraryTrainingCourses\obj\Debug\ClassLibraryTrainingCourses.pdb
